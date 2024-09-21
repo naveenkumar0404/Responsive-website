@@ -1,0 +1,106 @@
+*
+{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+.container
+{
+    max-width: 1180px;
+}
+
+/*Banner Start */
+.banner
+{
+    padding: 100px 0px;
+}
+
+/*Banner end */
+
+/*social start*/
+.social
+{
+    padding: 100px 0px;
+}
+.social-wrapper ul li
+{
+display: flex;
+gap: 15px;
+margin: 5px 0px;
+}
+/*social end*/
+
+/*award start*/
+.award
+{
+    padding: 100px 0px;
+}
+.award-wrapper >div > div >div{
+    box-shadow: 0px 4px 4px 0px #0000002b ;
+    border-radius: 20px;
+   
+}
+
+/*award end*/
+@media only screen and (max-width: 768px) {
+    .award-wrapper >div > div >div{
+       width: 90%;
+    }
+  }
+
+/*community start*/
+.community
+{
+    padding: 100px 0px ;
+}
+.community-wrapper > div > div > div
+{
+
+  
+    padding: 30px;
+    box-shadow: 14px 22px 52px -12px #7F7F7F2b  ;
+}
+/*community end*/
+
+/*Team start*/
+.Team
+{
+    padding: 100px;
+}
+.team-wrapper > div > div > div
+{
+    box-shadow: 0px 4px 4px 0px #0000002b ;
+    border-radius: 20px;
+   
+}
+/*Team end*/
+
+/*phone start*/
+.phone
+{
+    padding-bottom: 100px;
+    
+}
+.phone  > .container
+{
+    background-image: url("./i/bluebg.png");
+    width: 100%;
+}
+
+/*phone end*/
+/*application start*/
+.Application
+{
+    padding-bottom: 100px;
+}
+/*application End*/
+
